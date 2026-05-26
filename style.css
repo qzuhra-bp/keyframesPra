@@ -1,0 +1,35 @@
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    animation: moveblock 3s linear infinite;
+
+}
+body{
+    background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(144, 144, 173, 1) 42%, rgba(157, 138, 197, 1) 65%, rgba(194, 172, 185, 1) 89%, rgba(194, 155, 176, 1) 91%, rgba(133, 110, 224, 1) 100%);
+}
+@keyframes moveblock {
+    0%{
+        margin-left: 0px;
+    }
+    10%{
+        margin-top: 500px;
+    }
+    30%{
+        width: 300px;
+        height: 300px;
+    }
+    50%{
+        background-color: aqua;
+    }
+    70%{
+        margin-left: 200px;
+      
+    }
+    100%{
+        background-color: brown;
+    }
+}
